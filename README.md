@@ -1,47 +1,33 @@
-# requisitos-gac-grupo
-
 # GAC – Gestão de Ativos do CCT
 
 ## 👥 Equipe do Projeto
 
-* **Wesley**
-* **Emily**
-* **Suyane**
-* **Salua**
+* **Wesley Amorim Campêlo**
+* **Emily Da Silva Freitas**
+* **Suyane Pereira Costa**
+* **Salua Rayane Melo**
 
 **Orientador:** Prof. Marcelo Bezerra
 
 ---
 
-## 1. Problema e Oportunidade
+## 🚀 Sobre o Projeto
 
-O controle de empréstimo de projetores, chaves e outros ativos do CCT é feito de forma manual ou descentralizada, gerando dificuldade de rastreio e perdas. A solução proposta é uma plataforma digital integrada a identificadores físicos (NFC/QR Code) para maior eficiência e transparência.
+O **GAC** é uma solução para o controle de empréstimo de ativos (projetores, chaves, etc.) do CCT, substituindo processos manuais por uma plataforma digital com suporte a **NFC e QR Code**.
 
-## 2. Identificação de Stakeholders
+## 📑 Documentação Técnica
 
-* **Professores:** Solicitam e devolvem equipamentos.
-* **Equipe do CCT:** Operacionaliza o sistema e verifica o estado dos bens.
-* **TI da Unifor:** Apoio em infraestrutura e autenticação.
-* **Coordenação/Direção:** Acompanham indicadores de uso.
+Para detalhes específicos, acesse os documentos abaixo:
 
-## 3. Requisitos Principais
+* [📂 Documento de Visão](./Documento_de_Visao.md): Problema, stakeholders e solução.
+* [📂 Especificação de Requisitos](./Requisitos.md): Lista completa de RFs, RNFs e Regras de Negócio.
 
-* **RF01:** Cadastro de ativos com status.
-* **RF07:** Leitura de QR Code/NFC para identificação rápida.
-* **RNF01:** Disponibilidade do sistema de 99%.
-* **RNF06:** Interface simples e responsiva (máximo 3 cliques).
+## 🛠 Funcionalidades de Destaque
 
-## 4. Regras de Negócio (RN)
+* Registro automatizado de empréstimos e devoluções.
+* Identificação física rápida via TAGs (NFC/QR).
+* Gestão de pendências e bloqueios para atrasos.
 
-| ID             | Descrição                                                       |
-| :------------- | :---------------------------------------------------------------- |
-| **RN01** | Um professor não pode retirar mais de 3 ativos simultaneamente.  |
-| **RN02** | O prazo máximo de empréstimo é de 7 dias (renovável uma vez). |
-| **RN04** | Atraso gera pendência que impede novas retiradas.                |
-| **RN05** | Itens em manutenção não podem ser emprestados.                 |
+---
 
-## 5. Backlog Priorizado (MoSCoW)
-
-* **🟢 Must Have:** Cadastro, Empréstimo, Devolução, Login e Regras de limite.
-* **🟡 Should Have:** Leitura QR Code/NFC e Relatórios básicos.
-* **🔵 Could Have:** Reserva futura e Dashboards.
+*Projeto desenvolvido para a disciplina de Gestão de Ativos e Configuração - UNIFOR 2026.*
