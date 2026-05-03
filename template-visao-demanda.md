@@ -249,4 +249,4 @@ A versão final do documento será submetida à validação junto aos stakeholde
 - [x] Funcionalidades associadas a atores  
 - [x] Valor e frequência definidos  
 - [x] Arquitetura descrita  
-- [x] Linguagem formal, clara e objetiva  
+- [x] Linguagem formal, clara e objetivaa  
