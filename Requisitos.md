@@ -5,7 +5,7 @@
 * **RF08 - Repasse Digital (Novo):** O sistema deve permitir que um professor transfira a responsabilidade de um item para outro colega via confirmação mútua (QR Code), resolvendo o problema do repasse informal.
 * **RF09 - Histórico de Manutenção:** O sistema deve registrar quando um item vai para conserto e alertar sobre o fim da garantia (3 meses).
 
-## 3. Regras de Negócio (RN)
+## 2. Regras de Negócio (RN)
 
 * **RN01:** Um professor não pode retirar novos ativos se tiver pendências de devolução.
 * **RN07:** Todo item deve ser devolvido no mesmo dia (até às 22:40), independentemente do bloco.
