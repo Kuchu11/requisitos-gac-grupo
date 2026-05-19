@@ -84,7 +84,7 @@ O sistema deverá atender diferentes perfis de usuários, contemplando funcional
 
 - **Descrição:** Permitir a autenticação de usuários por meio de credenciais válidas, garantindo segurança no acesso ao sistema.  
 - **Incluída**  
-- **Atores:** Funcionário, Professor  
+- **Atores:** Atendente, Professor  
 - **Frequência:** Alta  
 - **Valor:** Alto  
 
@@ -96,7 +96,7 @@ O sistema deverá atender diferentes perfis de usuários, contemplando funcional
 
 - **Descrição:** Permitir o registro de projetores e cabos com identificação patrimonial.  
 - **Incluída**  
-- **Atores:** Funcionário  
+- **Atores:** Atendente  
 - **Frequência:** Média  
 - **Valor:** Alto  
 
@@ -104,7 +104,7 @@ O sistema deverá atender diferentes perfis de usuários, contemplando funcional
 
 - **Descrição:** Permitir a atualização de informações e remoção de equipamentos do sistema.  
 - **Incluída**  
-- **Atores:** Funcionário  
+- **Atores:** Atendente  
 - **Frequência:** Média  
 - **Valor:** Médio  
 
@@ -112,7 +112,7 @@ O sistema deverá atender diferentes perfis de usuários, contemplando funcional
 
 - **Descrição:** Disponibilizar informações em tempo real sobre a disponibilidade dos equipamentos.  
 - **Incluída**  
-- **Atores:** Funcionário, Professor  
+- **Atores:** Atendente, Professor  
 - **Frequência:** Alta  
 - **Valor:** Alto  
 
@@ -120,9 +120,9 @@ O sistema deverá atender diferentes perfis de usuários, contemplando funcional
 
 ### Necessidade 3: Processo de locação
 
-#### F3.1 Solicitação de equipamentos
+#### F3.1 Solicitação e agendamento de equipamentos
 
-- **Descrição:** Permitir que usuários realizem solicitações de empréstimo.  
+- **Descrição:** Permitir que os professores realizem solicitações de empréstimo imediato ou o agendamento prévio de equipamentos para datas e horários específicos.  
 - **Incluída**  
 - **Atores:** Professor  
 - **Frequência:** Alta  
@@ -130,17 +130,9 @@ O sistema deverá atender diferentes perfis de usuários, contemplando funcional
 
 #### F3.2 Aprovação de solicitações
 
-- **Descrição:** Permitir que funcionários aprovem ou rejeitem solicitações.  
+- **Descrição:** Permitir que os atendentes aprovem ou rejeitem solicitações e agendamentos.  
 - **Incluída**  
-- **Atores:** Funcionário  
-- **Frequência:** Alta  
-- **Valor:** Alto  
-
-#### F3.3 Agendamento de uso
-
-- **Descrição:** Permitir o agendamento prévio de equipamentos para datas e horários específicos.  
-- **Incluída**  
-- **Atores:** Professor  
+- **Atores:** Atendente  
 - **Frequência:** Alta  
 - **Valor:** Alto  
 
@@ -164,7 +156,7 @@ O sistema deverá atender diferentes perfis de usuários, contemplando funcional
 
 - **Descrição:** Gerar relatórios que identifiquem padrões de uso, incluindo equipamentos mais e menos utilizados.  
 - **Incluída**  
-- **Atores:** Funcionário, Diretor  
+- **Atores:** Atendente, Diretor  
 - **Frequência:** Média  
 - **Valor:** Alto  
 
@@ -172,7 +164,7 @@ O sistema deverá atender diferentes perfis de usuários, contemplando funcional
 
 - **Descrição:** Registrar manutenções realizadas e alertar sobre prazos de garantia.  
 - **Incluída**  
-- **Atores:** Funcionário  
+- **Atores:** Atendente  
 - **Frequência:** Baixa  
 - **Valor:** Médio  
 
@@ -209,11 +201,10 @@ Adicionalmente, devem ser considerados os seguintes requisitos não funcionais:
 ### Must Have (Obrigatórios)
 - Autenticação de usuários  
 - Cadastro e gestão de equipamentos  
-- Solicitação e aprovação de empréstimos  
+- Solicitação, agendamento e aprovação de empréstimos (F3.1 e F3.2)  
 - Controle de disponibilidade  
 
 ### Should Have (Importantes)
-- Agendamento de equipamentos  
 - Relatórios de uso  
 - Histórico de manutenção  
 
@@ -249,4 +240,4 @@ A versão final do documento será submetida à validação junto aos stakeholde
 - [x] Funcionalidades associadas a atores  
 - [x] Valor e frequência definidos  
 - [x] Arquitetura descrita  
-- [x] Linguagem formal, clara e objetivaa  
+- [x] Linguagem formal, clara e objetiva
