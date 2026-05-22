@@ -30,6 +30,8 @@ A implementação da solução proposta permitirá a substituição do controle 
 
 Adicionalmente, o sistema proporcionará maior controle e transparência no uso dos equipamentos, garantindo rastreabilidade completa dos ativos, segurança na transferência de responsabilidade entre usuários e suporte à tomada de decisão por meio de relatórios e indicadores de uso.
 
+Além disso, o sistema permitirá a emissão e consulta de recibos digitais de retirada, devolução e transferência de equipamentos, aumentando a transparência, segurança e rastreabilidade das operações realizadas.
+
 ---
 
 ## 3. Descrição da Demanda
@@ -44,7 +46,8 @@ Diante desse cenário, propõe-se o desenvolvimento de um sistema no domínio de
 - Solicitação e agendamento de uso  
 - Repasse digital de responsabilidade entre usuários  
 - Registro de histórico de manutenção  
-- Geração de relatórios gerenciais e estatísticos  
+- Geração de relatórios gerenciais e estatísticos
+- Emissão e consulta de recibos digitais
 
 O sistema deverá atender diferentes perfis de usuários, contemplando funcionalidades específicas para cada papel envolvido no processo.
 
@@ -124,6 +127,14 @@ O sistema deverá atender diferentes perfis de usuários, contemplando funcional
 - **Atores:** Diretor  
 - **Frequência:** Média  
 - **Valor:** Alto  
+
+#### F1.6 Emissão e consulta de recibos digitais
+
+- **Descrição:** Permitir a geração e consulta de recibos digitais relacionados às operações de retirada, devolução e transferência de equipamentos, garantindo rastreabilidade e registro das ações realizadas.  
+- **Incluída**  
+- **Atores:** Atendente, Professor e Diretor  
+- **Frequência:** Alta  
+- **Valor:** Alto
 
 ---
 
@@ -301,7 +312,9 @@ O sistema deverá ser dividido em módulos independentes para facilitar manuten�
 
 O sistema deverá armazenar logs das operações realizadas pelos usuários.
 
-## 7. Arquitetura da Demanda
+### RNF15 — Persistência documental
+
+O sistema deverá armazenar recibos digitais de operações realizadas, permitindo consulta posterior pelos usuários autorizados.
 
 ## 7. Arquitetura da Demanda
 
@@ -312,7 +325,8 @@ A solução será estruturada com base no domínio de locação de equipamentos,
 - Módulo de locação e agendamento  
 - Módulo de transferências  
 - Módulo de manutenção  
-- Módulo de relatórios e monitoramento  
+- Módulo de relatórios e monitoramento
+- Módulo de recibos digitais
 
 O sistema deverá funcionar em ambiente web, permitindo acesso por diferentes perfis de usuários através de autenticação segura.
 
@@ -343,8 +357,9 @@ Adicionalmente, o sistema contará com mecanismos de validação digital por PIN
 - CU5: Confirmar devolução  
 - CU6: Transferir responsabilidade  
 - CU7: Registrar manutenção  
-- CU8: Emitir recibos  
-- CU9: Gerar relatórios  
+- CU8: Emitir recibos
+- CU9: Consultar Recibos   
+- CU10: Gerar relatórios  
 
 ---
 
@@ -381,7 +396,9 @@ Adicionalmente, o sistema contará com mecanismos de validação digital por PIN
 - **RN05:** Equipamentos em manutenção ou com defeito não poderão ser reservados ou emprestados.  
 - **RN06:** Apenas diretores poderão aprovar cadastros de usuários e equipamentos.  
 - **RN07:** Todos os equipamentos deverão possuir identificação patrimonial única.  
-- **RN08:** O sistema deverá registrar automaticamente o histórico completo de empréstimos, devoluções, transferências e manutenções.  
+- **RN08:** O sistema deverá registrar automaticamente o histórico completo de empréstimos, devoluções, transferências e manutenções.
+- **RN09:** Toda retirada, devolução e transferência deverá gerar um recibo digital automaticamente.  
+- **RN10:** Recibos digitais deverão permanecer disponíveis para consulta pelos usuários autorizados.  
 
 ---
 
@@ -402,7 +419,8 @@ Adicionalmente, o sistema contará com mecanismos de validação digital por PIN
 
 - Relatórios de uso  
 - Controle de manutenção   
-- Histórico de manutenção  
+- Histórico de manutenção
+- Emissão e consulta de recibos digitais
 
 ### Could Have (Desejáveis)
 
