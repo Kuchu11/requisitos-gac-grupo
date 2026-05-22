@@ -401,8 +401,7 @@ Adicionalmente, o sistema contará com mecanismos de validação digital por PIN
 ### Should Have (Importantes)
 
 - Relatórios de uso  
-- Controle de manutenção  
-- Emissão de recibos digitais  
+- Controle de manutenção   
 - Histórico de manutenção  
 
 ### Could Have (Desejáveis)
