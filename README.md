@@ -2,7 +2,7 @@
 
 ## 👥 Equipe do Projeto
 
-* **Emily Da Silva Freitas**
+* **Emily da Silva Freitas**
 * **Salua Rayane Melo**
 * **Suyane Pereira Costa**
 * **Wesley Amorim Campêlo**
@@ -13,22 +13,15 @@
 
 ## 🚀 Sobre o Projeto
 
-O **GAC** é uma solução para o controle de empréstimo de ativos (projetores, cabos e chaves) do CCT, substituindo processos manuais por uma plataforma digital com suporte a **NFC e QR Code**. O objetivo é eliminar gargalos no atendimento da secretaria e garantir a rastreabilidade total dos itens.
+O **GAC** é uma solução para o controle de empréstimo de ativos (projetores e cabos) do CCT, substituindo processos manuais por uma plataforma digital. O objetivo é eliminar gargalos no atendimento da secretaria, acabar com o repasse informal de equipamentos e garantir a rastreabilidade total dos itens por meio de confirmações digitais e validação por PIN.
 
-## 📄 Documentação Técnica
+---
 
-Para detalhes específicos, acesse os documentos abaixo:
+## 📄 Documentação Oficial do Projeto
 
-* [📁 Documento de Visão](./Documento_de_Visao.md): Problema, stakeholders (Secretaria, Direção, DETECK) e solução.
-* [📁 Especificação de Requisitos](./Requisitos.md): Lista completa de RFs, RNFs e Regras de Negócio.
-* [📁 Modelagem UML](./UML.md): Diagramas de Casos de Uso, Classes e Sequência (conforme o backlog do projeto).
+Toda a engenharia de requisitos, regras de negócio, backlog MoSCoW e modelagem do sistema foram centralizadas no documento principal para a avaliação da P1:
 
-## 🛠️ Funcionalidades de Destaque
-
-* **Registro Automatizado:** Empréstimos e devoluções vinculados à matrícula do professor.
-* **Identificação Física:** Uso de TAGS (NFC/QR) para conferência rápida de patrimônio.
-* **Repasse de Responsabilidade:** Funcionalidade para oficializar a troca de posse entre professores.
-* **Controle de Manutenção:** Integração de status para itens enviados à DETECK.
+* [📁 Documento de Visão Completo](./Documento_de_Visao.md)
 
 ---
 

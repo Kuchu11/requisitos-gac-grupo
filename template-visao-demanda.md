@@ -376,6 +376,8 @@ Adicionalmente, o sistema contará com mecanismos de validação digital por PIN
 - CU9: Consultar Recibos   
 - CU10: Gerar relatórios  
 
+![Diagrama de Casos de Uso](./requisitos-gac-grupo/diagrama-casos-de-.../diagrama.png.jpeg)
+
 ---
 
 #### 7.1.2 Diagrama de Componentes
@@ -429,13 +431,13 @@ Adicionalmente, o sistema contará com mecanismos de validação digital por PIN
 - Controle de transferências de responsabilidade  
 - Registro de devolução  
 - Histórico de operações  
+- Emissão e consulta de recibos digitais
 
 ### Should Have (Importantes)
 
 - Relatórios de uso  
 - Controle de manutenção   
 - Histórico de manutenção
-- Emissão e consulta de recibos digitais
 
 ### Could Have (Desejáveis)
 
