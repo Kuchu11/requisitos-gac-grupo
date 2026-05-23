@@ -51,6 +51,21 @@ Diante desse cenário, propõe-se o desenvolvimento de um sistema no domínio de
 
 O sistema deverá atender diferentes perfis de usuários, contemplando funcionalidades específicas para cada papel envolvido no processo.
 
+### 3.1 Processo de Elicitação e Entrevistas
+
+Para o entendimento real das dores operacionais e levantamento dos requisitos do sistema, a equipe realizou entrevistas estruturadas com as principais partes interessadas (Equipe operacional do CCT e corpo docente).
+
+**Roteiro de Perguntas Aplicadas:**
+- Como funciona o fluxo atual de empréstimo de projetores desde a retirada até a devolução?
+- Quais são os principais gargalos enfrentados nos horários de troca de turno?
+- Como é feito o controle quando um professor precisa passar o equipamento diretamente para outro colega?
+- O que acontece se houver algum erro de anotação ou sumiço de componentes no modelo atual?
+
+**Resultados e Conclusões das Entrevistas:**
+- **Gargalo de Atendimento:** Confirmou-se que a maioria dos professores finaliza as aulas no mesmo horário, gerando um tumulto nas devoluções. Como a secretaria possui apenas um caderno de anotações para uso manual dos funcionários, o processo trava, causando filas, atrasos e erros de preenchimento.
+- **Perda de Rastreabilidade:** Os professores admitiram que repassam os projetores diretamente para outros colegas sem comunicar a secretaria. Isso quebra a garantia de responsabilidade, pois impede que se saia quem realmente causou algum dano ao equipamento ou o extravio de componentes essenciais, como cabos VGA e USB.
+- **Necessidade de Segurança e Automação:** Apontou a necessidade urgente de automatizar o processo para identificar com precisão qual projetor está com defeito e precisa de manutenção, eliminando de vez a transferência informal e sem registro entre os docentes.
+
 ---
 
 ## 4. Partes Interessadas
