@@ -21,7 +21,7 @@ O **GAC** é uma solução para o controle de empréstimo de ativos (projetores 
 
 Toda a engenharia de requisitos, regras de negócio, backlog MoSCoW e modelagem do sistema foram centralizadas no documento principal para a avaliação da P1:
 
-* [📁 Documento de Visão Completo](./Documento_de_Visao.md)
+* [📁 Documento de Visão Completo](./template-visao-demanda.md)
 
 ---
 

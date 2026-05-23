@@ -376,8 +376,7 @@ Adicionalmente, o sistema contará com mecanismos de validação digital por PIN
 - CU9: Consultar Recibos   
 - CU10: Gerar relatórios  
 
-![Diagrama de Casos de Uso](./requisitos-gac-grupo/diagrama-casos-de-.../diagrama.png.jpeg)
-
+![Diagrama de Casos de Uso](./diagrama-casos-de-uso.png/diagrama.jpeg)
 ---
 
 #### 7.1.2 Diagrama de Componentes
